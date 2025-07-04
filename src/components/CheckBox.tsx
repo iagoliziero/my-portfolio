@@ -31,14 +31,15 @@ const StyledWrapper = styled.div`
 
   .hamburger svg {
     /* The size of the SVG defines the overall size */
-    height: 3em;
+    height: 2.5em;
+    color: white;
     /* Define the transition for transforming the SVG */
     transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .line {
     fill: none;
-    stroke: white;
+    stroke: #AFB0B4;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 3;

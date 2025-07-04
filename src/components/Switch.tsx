@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const Switch = () => {
@@ -25,14 +24,13 @@ const Switch = () => {
 
 const StyledWrapper = styled.div`
   .toggle {
-  color: #fff;
+    color: #AFB0B4;
     width: 56px;
     height: 56px;
     border-radius: 50%;
     display: grid;
     place-items: center;
     cursor: pointer;
-    box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.1);
     line-height: 1;
   }
 

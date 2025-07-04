@@ -3,7 +3,7 @@ import TypeWriter from 'typewriter-effect'
 const TypeWriterEffect = () => {
     return ( 
         <TypeWriter options={{
-            strings: ['Desenvolvedor Full Stack', 'Criador de Soluções', 'Desenvolvedor Backend'],
+            strings: ['Desenvolvedor Full Stack', 'Criador de Soluções', 'Desenvolvedor Backend', 'Desenvolvedor Front-end'],
             autoStart: true,
             loop: true,
             cursor: '|',

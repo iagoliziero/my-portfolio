@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .style-header {
+      @apply md:flex md:justify-center md:text-white/70 md:p-4 md:gap-5 xl:gap-8;
+    }
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+
+}

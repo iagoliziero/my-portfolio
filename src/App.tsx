@@ -5,15 +5,15 @@ import TypeWriterEffect from "./components/TypeWriter";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-slate-900 dark:from-black dark:via-gray-900 dark:to-black transition-all duration-300 overflow-x-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-gray-950 to-slate-900 dark:from-black dark:via-gray-900 dark:to-black transition-all duration-300 overflow-x-hidden">
       <Header />
       {/* create component here (Hero Section) */}
-      <section className="relative flex flex-col items-center justify-center h-screen gap-5 top-10">
-        <div className="flex flex-col items-center relative bottom-24">
-          <h1 className="text-5xl md:text-6xl text-slate-50 font-bold relative  text-center bg-gradient-to-r from-white/70 to-purple-400 text-transparent bg-clip-text p-3">
+      <section className="relative flex flex-col items-center justify-center h-screen gap-20 top-10">
+        <div className="flex flex-col items-center relative bottom-24 z-20">
+          <h1 className="text-5xl md:text-6xl xl:text-7xl text-slate-50 font-bold relative  text-center bg-gradient-to-r from-white/70 to-purple-300 text-transparent bg-clip-text p-3">
             Iago Liziero
           </h1>
-          <div className=" text-center text-purple-400 text-2xl md:text-3xl mb-10">
+          <div className=" text-center text-purple-300 text-2xl md:text-3xl mb-10">
             <TypeWriterEffect />
           </div>
 

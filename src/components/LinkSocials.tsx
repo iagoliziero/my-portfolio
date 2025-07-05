@@ -5,7 +5,7 @@ interface LinkSocialsProps {
     children: React.ReactNode;
 }
 
-const LinkSocials = ({href, children, target, rel}: LinkSocialsProps ) => {
+const LinkSocials = ({href, children, target, rel}: LinkSocialsProps ): JSX.Element => {
     return ( 
         <a
         href={href}

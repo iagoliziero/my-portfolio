@@ -1,3 +1,4 @@
+import { ChevronDown } from "lucide-react";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -19,7 +20,13 @@ function App() {
       {/* Socials section */}
       <SocialsSection />
       {/* Socials section */}
+      {/* arrow down */}
+      <div className="relative top-5 text-white/70 left-1/2 transform -translate-x-1/2 animate-bounce mb-64">
+      <ChevronDown width={35} height={35} />
+      </div>
+      {/* arrow down */}
     </div>
+    
   );
 }
 

@@ -8,7 +8,7 @@
     }
 
     .hover-effect {
-        @apply absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 scale-x-0 origin-left transition-transform duration-300;
+        @apply absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-purple-600 to-pink-600 scale-x-0 origin-left transition-transform duration-300;
     }
 
     .hover-effect-active:hover .hover-effect {

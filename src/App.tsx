@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HeroContent from "./components/HeroContent";
+import SocialsSection from "./components/SocialsSection";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
           <Hero />
         </div>
       </section>
-      
+      {/* Socials section */}
+      <SocialsSection />
+      {/* Socials section */}
     </div>
   );
 }

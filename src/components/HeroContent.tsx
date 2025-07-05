@@ -1,6 +1,7 @@
+import HeroButton from "./HeroButton";
 import TypeWriterEffect from "./TypeWriter";
 
-const HeroContent = () => {
+const HeroContent = (): JSX.Element => {
   return (
     <div className="flex flex-col items-center relative bottom-24 z-20 gap-10">
       <div>
@@ -17,14 +18,8 @@ const HeroContent = () => {
         </p>
       </div>
       {/* Button navigation */}
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-5">
-        <button className="p-5 w-52 text-[18px] bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-white/70 font-semibold shadow-lg hover:bg-purple-600 transition duration-300">
-          Ver Meus Projetos
-        </button>
-        <button className="p-5 w-52 text-[18px] rounded-full border-2 border-purple-400 text-white/70 font-semibold shadow-lgtransition duration-300">
-          Vamos Conversar
-        </button>
-      </div>
+      <HeroButton />
+      {/* Background Hero */}
     </div>
   );
 };

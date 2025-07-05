@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Checkbox = () => {
+const Checkbox = (): JSX.Element => {
   return (
     <StyledWrapper>
       <label className="hamburger">

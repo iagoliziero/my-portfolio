@@ -1,6 +1,6 @@
 import TypeWriter from 'typewriter-effect'
 
-const TypeWriterEffect = () => {
+const TypeWriterEffect = (): JSX.Element => {
     return ( 
         <TypeWriter options={{
             strings: ['Desenvolvedor Full Stack', 'Criador de Soluções', 'Desenvolvedor Backend', 'Desenvolvedor Front-end'],

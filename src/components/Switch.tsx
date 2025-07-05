@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Switch = () => {
+const Switch = (): JSX.Element => {
   return (
     <StyledWrapper>
       <div className="container">

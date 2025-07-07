@@ -6,7 +6,6 @@ const MyMarquee = () => (
     direction="left"
     pauseOnHover={true}
     gradient={true}
-    
   >
     {/* Build the feature soon */}
   </Marquee>

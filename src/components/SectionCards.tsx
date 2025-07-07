@@ -7,7 +7,7 @@ interface SectionCardsProps {
 
 const SectionCards = ({icon, children, className, title}: SectionCardsProps): JSX.Element => {
     return ( 
-        <div className="flex gap-5 flex-col mil:max-w-[25rem] bg-white/5 p-6 rounded-xl border-slate-300/30 border">
+        <div className="flex gap-5 flex-col mil:max-w-[25rem] bg-white/5 p-6 rounded-xl border-slate-300/30 border hover:bg-white/10 transition-all ease-in-out duration-300">
         <div className="flex gap-3 items-center">
           <span className={className}>
             {icon}

@@ -12,7 +12,7 @@ function App() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center  top-60 lg:top-72">
+      <section className="relative flex flex-col items-center justify-center  top-60 lg:top-80">
         <HeroContent />
         <div className="flex flex-col items-center justify-center">
           {" "}
@@ -26,8 +26,10 @@ function App() {
       {/* Socials section */}
 
       {/* arrow down */}
-      <div className="relative top-60 lg:top-72 text-white/70 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="relative top-60 lg:top-80 text-white/70 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <a href="#">
         <ChevronDown width={35} height={35} />
+        </a>
       </div>
       {/* arrow down */}
 

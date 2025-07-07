@@ -4,12 +4,12 @@ const AboutMe = (): JSX.Element => {
     return ( 
 
         <div className="max-h-0 relative top-[25rem] lg:top-[35rem] flex flex-col  items-center gap-10">
-        <div className="max-w-48 lg:max-w-[40rem] ">
+        <div className="max-w-48 md:max-w-56 lg:max-w-[40rem] ">
           <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold relative  text-center bg-gradient-to-r from-purple-500 to-pink-400 text-transparent bg-clip-text p-3">
             {" "}
             Sobre Mim
           </h1>
-          <div className="relativ h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full border-slate-300/30 border"></div>
+          <div className="relative h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full border-slate-300/30 border"></div>
         </div>
         <div>
           <img className="w-80 rounded-full border" src="../public/iago.png" alt="Imagem iago" />

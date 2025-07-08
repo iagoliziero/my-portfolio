@@ -5,12 +5,12 @@ import CardAboutMe from "./CardAboutMe";
 
 const AboutMe = (): JSX.Element => {
   return (
-    <div className="max-h-0 relative top-[25rem] lg:top-[35rem] flex flex-col  items-center gap-10">
+    <div className="flex flex-col  items-center gap-10">
         <Subtitle>Sobre Mim</Subtitle>
       <div>
         <img
           className="w-80 rounded-full border"
-          src="../public/iago.png"
+          src="/iago.png"
           alt="Imagem iago"
         />
       </div>

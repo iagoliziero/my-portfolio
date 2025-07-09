@@ -5,7 +5,7 @@ import Subtitle from "./Subtitle";
 const TechStack = (): JSX.Element => {
     return ( 
         <section className="flex w-full flex-col justify-center items-center gap-6 text-center mt-20 ">
-        <div className="flex flex-col gap-5 items-center p-2">
+        <div className="flex flex-col gap-5 items-center p-2 md:max-w-[30rem] mil:max-w-full">
         <Subtitle>Stack Tecnológica </Subtitle>
         <Paragraph> Tecnologias que domino para criar soluções completas e inovadoras </Paragraph>
         </div>

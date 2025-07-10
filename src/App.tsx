@@ -7,8 +7,7 @@ import SocialsSection from "./components/SocialsSection";
 import AboutMe from "./components/AboutMe";
 import TechStack from "./components/TechStack";
 import TechStudy from "./components/TechStudy";
-import Subtitle from "./components/Subtitle";
-import Paragraph from "./components/Paragraph";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -45,25 +44,9 @@ function App() {
         <TechStack />
 
         <TechStudy />
-        {/* Create component later */}
-        <section className="flex w-full flex-col justify-center items-center gap-6 text-center mt-20">
-          <div className="flex flex-col gap-5 items-center p-2 md:max-w-[30rem] mil:max-w-[40rem]">
-            <Subtitle>Projetos em Destaque</Subtitle>
-            <Paragraph>
-              Soluções completas que demonstram minha expertise técnica e
-              criatividade
-            </Paragraph>
-          </div>
-          <section className="p-6">
-          <div className="flex gap-1 w-[24rem] lg:w-[28rem] whitespace-nowrap bg-white/5 p-4 h-16 lg:gap-5 rounded-full border-slate-300/30 border  items-center justify-center">
-              <button className="text-white/70 button-project p-3 font-semibold hover:bg-white/10 hover:rounded-full transition-all ease-in-out duration-300 active "> Todos</button>
-              <button className="text-white/70 button-project p-3 font-semibold hover:bg-white/10 hover:rounded-full transition-all ease-in-out duration-300"> Full Stack</button>
-              <button className="text-white/70 button-project p-3 font-semibold hover:bg-white/10 hover:rounded-full transition-all ease-in-out duration-300 "> Frontend</button>
-              <button className="text-white/70 button-project p-3 font-semibold hover:bg-white/10 hover:rounded-full transition-all ease-in-out duration-300 "> Backend</button>
-            </div>
-          </section>
-        </section>
-        {/* Create component later */}
+        {/* Projects Component */}
+        <Projects />
+        {/* Projects Component */}
       </div>
     </div>
   );

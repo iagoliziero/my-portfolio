@@ -2,47 +2,11 @@ import { SquareArrowOutUpRight } from "lucide-react";
 import Paragraph from "./Paragraph";
 import { CardProjectsInterface } from "../interfaces/CardProjectsInterface";
 import { useState } from "react";
+import { dataProjects } from "../data/dataProjects";
 
 const CardsProjects = (): JSX.Element => {
-  const cardProject: CardProjectsInterface[] = [
-    {
-      id: 1,
-      img: "https://i.postimg.cc/tgsBkxcf/img-peakform.jpg",
-      title: "Peak Form",
-      description:
-        "Plataforma para gerenciamento de treinos, com CRUD de exercícios, rastreamento de progresso e autenticação.",
-      techChallenge: "implementar cadastro de login com segurança JWT",
-      techStack: ["React.js", "Tailwind", "Context API", "React Hook Form", "Axios"],
-      navigationGithub: "https://github.com/iagoliziero/peak-form",
-      navigationDemo: "https://peak-form-psi.vercel.app/",
-      navigateDemoExist: true,
-    },
-    {
-      id: 2,
-      img: "https://i.postimg.cc/BZh9mx7Z/img-backendpeakform.jpg",
-      title: "Backend Peak Form",
-      description:
-        "Backend do projeto PeakForm: API RESTful com autenticação JWT para gerenciar usuários, treinos e dados corporais.",
-      techChallenge: "implementar cadastro de login com segurança JWT",
-      techStack: ["Node.js", "Express", "JWT", "Prisma", "PostgreSQL"],
-      navigationGithub: "https://github.com/iagoliziero/backend-peakform",
-      navigateDemoExist: false,
-    },
-    {
-      id: 3,
-      img: "https://i.postimg.cc/dtVgbLZs/img-comunidade-vibra.jpg",
-      title: "Comunidade Vibra",
-      description:
-        "Projeto Freelancer - Landing page desenvolvida para um influenciadora com o objetivo de apresentar e direcionar usuárias para sua comunidade gratuita no WhatsApp",
-      techChallenge: "implementar cadastro de login com segurança JWT",
-      techStack: ["React.js", "TailwindCSS", "gsap", "shadcn"],
-      navigationGithub: "https://github.com/iagoliziero/vibra-landing",
-      navigationDemo: "https://comunidade-vibra.vercel.app/",
-      navigateDemoExist: true,
-    },
-  ];
 
-  const [projects] = useState<CardProjectsInterface[]>(cardProject);
+  const [projects] = useState<CardProjectsInterface[]>(dataProjects);
 
   return (
     <section className="flex flex-wrap justify-center gap-6 mil:flex-none mil:grid mil:grid-cols-2 ">

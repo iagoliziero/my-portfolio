@@ -8,5 +8,5 @@ export interface CardProjectsInterface {
     navigationGithub: string,
     navigationDemo?: string,
     navigateDemoExist: boolean,
-    
+    area: string
 }

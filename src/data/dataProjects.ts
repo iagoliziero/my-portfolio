@@ -31,7 +31,7 @@ export const dataProjects: CardProjectsInterface[] = [
       img: "https://i.postimg.cc/wBBc3Jd3/img-comunidade-vibra.jpg",
       title: "Comunidade Vibra",
       description:
-        "Projeto Freelancer - Landing page desenvolvida para um influenciadora com o objetivo de apresentar e direcionar usuárias para sua comunidade gratuita no WhatsApp",
+        "Projeto Freelancer - Landing page desenvolvida para uma influenciadora com o objetivo de apresentar e direcionar usuárias para sua comunidade gratuita no WhatsApp.",
       techChallenge: "Criar uma interface bonita que transmitisse a identidade visual desejada pela cliente.",
       techStack: ["React.js", "TailwindCSS", "gsap", "shadcn"],
       navigationGithub: "https://github.com/iagoliziero/vibra-landing",

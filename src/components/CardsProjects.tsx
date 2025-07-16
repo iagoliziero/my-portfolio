@@ -4,13 +4,30 @@ import { CardProjectsInterface } from "../interfaces/CardProjectsInterface";
 import { useState } from "react";
 import { dataProjects } from "../data/dataProjects";
 
-const CardsProjects = (): JSX.Element => {
+interface CardsProjectsProps {
+  selectedArea: number | null;
+}
+
+const CardsProjects = ({selectedArea}: CardsProjectsProps): JSX.Element => {
 
   const [projects] = useState<CardProjectsInterface[]>(dataProjects);
 
+  interface IRecord {
+    [key: number]: string
+  }
+
+  const areaMap: IRecord = {
+    1: "Todos",
+    2: "Full Stack",
+    3: "Frontend",
+    4: "Backend"
+  }
+
+  const filteredProjects = selectedArea && selectedArea !== 1 ? projects.filter(project => project.area === areaMap[selectedArea]) : projects
+
   return (
     <section className="flex flex-wrap justify-center gap-6 mil:flex-none mil:grid mil:grid-cols-2 ">
-      {projects.map((project) => (
+      {filteredProjects.map((project) => (
         <section
           key={project.id}
           className="
@@ -71,7 +88,8 @@ const CardsProjects = (): JSX.Element => {
 
             <div className="flex md:flex-row items-center justify-start gap-5 mt-4">
               {project.navigateDemoExist && project.navigationDemo && (
-                <button
+                <a
+                href={project.navigationDemo} target="_blank" rel="noreferrer"
                   className="
                     flex items-center justify-center gap-2
                     w-44 se:w-[13rem] p-3 text-[16px]
@@ -86,13 +104,13 @@ const CardsProjects = (): JSX.Element => {
                   <span>
                     <SquareArrowOutUpRight size={18} />
                   </span>
-                  <a href={project.navigationDemo} target="_blank" rel="noreferrer">
+                  <p>
                     Ver Demo
-                  </a>
-                </button>
+                  </p>
+                </a>
               )}
 
-              <button
+              <a href={project.navigationGithub} target="_blank" rel="noreferrer"
                 className="
                   flex items-center justify-center gap-2
                   w-44 se:w-[11rem] mil:w-[13rem] p-3 text-[16px]
@@ -120,10 +138,10 @@ const CardsProjects = (): JSX.Element => {
                     <path d="M9 18c-4.51 2-5-2-7-2" />
                   </svg>
                 </span>
-                <a href={project.navigationGithub} target="_blank" rel="noreferrer">
+                <p>
                   Código
-                </a>
-              </button>
+                </p>
+              </a>
             </div>
           </section>
         </section>

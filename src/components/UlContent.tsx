@@ -7,6 +7,7 @@ const UlContent = (): JSX.Element => {
         <NavLink href="#" label="Sobre" />
         <NavLink href="#" label="Stack" />
         <NavLink href="#" label="Projetos" />
+        <NavLink href="#" label="Currículo" />
         <NavLink href="#" label="Contato" />
       </ul>
      );

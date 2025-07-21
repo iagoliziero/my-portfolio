@@ -1,4 +1,4 @@
-import { ChevronDown } from "lucide-react";
+import { ChevronDown} from "lucide-react";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -8,6 +8,7 @@ import AboutMe from "./components/AboutMe";
 import TechStack from "./components/TechStack";
 import TechStudy from "./components/TechStudy";
 import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -47,6 +48,9 @@ function App() {
         {/* Projects Component */}
         <Projects />
         {/* Projects Component */}
+        {/* Work In Progress (WIP) -  Resume Component */}
+          <Resume />
+        {/* Work In Progress (WIP) - Resume Component  */}
       </div>
     </div>
   );

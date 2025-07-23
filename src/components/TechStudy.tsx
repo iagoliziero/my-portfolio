@@ -2,6 +2,7 @@ import { Rocket } from "lucide-react";
 import { TechStudyInterface } from "../interfaces/TechStudyInterface";
 import Paragraph from "./Paragraph";
 import { useState } from "react";
+import H3 from "./H3";
 
 const techStudyObj: TechStudyInterface[] = [
   { id: 1, tech: "Java" },
@@ -22,10 +23,10 @@ const TechStudy = (): JSX.Element => {
             {" "}
             <Rocket />{" "}
           </span>
-          <h3 className="text-xl font-semibold text-white/70">
+          <H3>
             {" "}
             Sempre Evoluindo{" "}
-          </h3>
+          </H3>
         </div>
           <Paragraph>
             {" "}

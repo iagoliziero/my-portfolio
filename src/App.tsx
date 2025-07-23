@@ -48,9 +48,7 @@ function App() {
         {/* Projects Component */}
         <Projects />
         {/* Projects Component */}
-        {/* Work In Progress (WIP) -  Resume Component */}
           <Resume />
-        {/* Work In Progress (WIP) - Resume Component  */}
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import { Download, FileText } from "lucide-react";
 import Paragraph from "./Paragraph";
 import Subtitle from "./Subtitle";
+import H3 from "./H3";
 
 const Resume = (): JSX.Element => {
     return ( 
@@ -13,8 +14,8 @@ const Resume = (): JSX.Element => {
               experiência profissional
             </Paragraph>
           </div>
-          <div className="w-full p-6 flex md:max-w-[32rem] mil:max-w-[55rem] items-center justify-center">
-            <div className="flex gap-5 flex-col bg-white/5 p-9 rounded-xl border-slate-300/30 border hover:bg-white/10 transition-all ease-in-out duration-300">
+          <div className="p-6 w-full md:max-w-[33rem] mil:min-w-[57rem] items-center justify-center">
+            <div className="flex gap-5 flex-col bg-white/5 p-6 rounded-xl border-slate-300/30 border hover:bg-white/10 transition-all ease-in-out duration-300">
               <div className="flex flex-col gap-4 items-center">
                 <span
                   className=" flex bg-gradient-to-r
@@ -27,10 +28,10 @@ const Resume = (): JSX.Element => {
                 </span>
                 {/* Hero text */}
                 <div className="flex flex-col gap-3">
-                  <h2 className="text-xl font-semibold text-white/70">
+                  <H3>
                     {" "}
                     Currículo Completo{" "}
-                  </h2>
+                  </H3>
                   <Paragraph>Acesse informações detalhadas sobre formação, experiências e certificações </Paragraph>
                 </div>
                 <a href="#" className="mt-5 flex items-center justify-center gap-2

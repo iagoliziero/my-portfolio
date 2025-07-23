@@ -1,4 +1,4 @@
-import { ChevronDown} from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -9,6 +9,10 @@ import TechStack from "./components/TechStack";
 import TechStudy from "./components/TechStudy";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
+import Subtitle from "./components/Subtitle";
+import Paragraph from "./components/Paragraph";
+import WhyChooseMe from "./components/WhyChooseMe";
 
 function App() {
   return (
@@ -48,7 +52,24 @@ function App() {
         {/* Projects Component */}
         <Projects />
         {/* Projects Component */}
-          <Resume />
+        <Resume />
+        {/* WIP */}
+        <section className="flex flex-col items-center mt-10">
+          <div className="flex flex-col gap-5 text-center items-center p-6 md:max-w-[30rem] mil:min-w-[40rem]">
+            <Subtitle>Entre em Contato</Subtitle>
+            <Paragraph>
+              {" "}
+              Estou aberto a oportunidades, colaborações ou apenas um bom papo
+              sobre tecnologia. Fique à vontade para me chamar
+            </Paragraph>
+          </div>
+          <div className="flex flex-col items-center mt-5">
+            <Contact />
+            <WhyChooseMe />
+
+          </div>
+        </section>
+        {/* WIP */}
       </div>
     </div>
   );

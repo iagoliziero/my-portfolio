@@ -5,8 +5,8 @@ import H3 from "./H3";
 
 const Resume = (): JSX.Element => {
     return ( 
-        <section className="flex w-full flex-col justify-center items-center gap-6 text-center ">
-          <div className="flex flex-col gap-5 items-center p-6 md:max-w-[30rem]">
+        <section className="flex w-full flex-col justify-center items-center gap-6 text-center">
+          <div className="flex flex-col gap-5 items-center p-6 md:max-w-[30rem] mil:min-w-[40rem]">
             <Subtitle>Currículo</Subtitle>
             <Paragraph>
               {" "}

@@ -7,7 +7,7 @@ interface IwhyChooseMe {
 
 const WhyChooseMeSection = ({ children}: IwhyChooseMe): JSX.Element => {
   return (
-    <div className="flex gap-3 items-center">
+    <div className="flex gap-3 items-center text-start">
       <span className="text-purple-400/70"> <CircleCheckBig size={24} /></span>
       <Paragraph> {children}</Paragraph>
     </div>

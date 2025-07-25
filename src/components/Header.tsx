@@ -4,7 +4,7 @@ import UlContent from "./UlContent";
 
 const Header = (): JSX.Element => {
   return (
-    <header className="fixed w-max-screen top-0 right-0 left-0 p-5 flex justify-between items-center blur-xs backdrop-blur-[0.5em] z-50 lg:justify-center lg:gap-60">
+    <header className="fixed w-max-screen top-0 right-0 left-0 p-5 flex justify-between items-center blur-xs backdrop-blur-[0.5em] z-50 lg:justify-center lg:gap-52">
       <a
       href="#"
       className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 font-bold text-2xl ">

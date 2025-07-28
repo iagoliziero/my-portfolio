@@ -10,6 +10,7 @@ import TechStudy from "./components/TechStudy";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import GetContact from "./components/GetContact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -28,7 +29,10 @@ function App() {
         {/* Hero Section */}
 
         {/* Socials section */}
+        <section className="flex items-center justify-center gap-6 md:gap-7 relative bottom-10 top-48 lg:top-64"> 
+
         <SocialsSection />
+        </section>
         {/* Socials section */}
       </div>
       {/* arrow down */}
@@ -50,6 +54,7 @@ function App() {
         {/* Projects Component */}
         <Resume />
         <GetContact />
+        <Footer />
       </div>
     </div>
   );

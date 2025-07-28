@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 const UlContent = (): JSX.Element => {
     return ( 
         <ul className="hidden md:style-header">
-        <NavLink href="#" label="Inicio" />
+        <NavLink href="#" label="Início" />
         <NavLink href="#" label="Sobre" />
         <NavLink href="#" label="Stack" />
         <NavLink href="#" label="Projetos" />

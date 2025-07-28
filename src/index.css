@@ -19,6 +19,14 @@
       @apply bg-gradient-to-r from-purple-600 to-pink-600 rounded-full 
     }
 
+    .h3-footer {
+      @apply text-white text-xl font-semibold
+    }
+
+    .p-footer {
+      @apply text-white/70 text-start
+    }
+
   }
 
   @media (max-width: 768px) {

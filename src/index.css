@@ -41,7 +41,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgb(15, 15, 15);
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -53,7 +53,7 @@
   background: linear-gradient(to bottom, #9333ea, #db2777);
 }
 
-html,body {
+html, body {
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
 }

@@ -48,7 +48,7 @@ const SocialsSection = (): JSX.Element => {
         </svg>
       </LinkSocials>
 
-      <LinkSocials href="mailto:contatoiagoliziero@gmail.com?subject=Olá%20Iago">
+      <LinkSocials href="#6">
         <svg 
           xmlns="http://www.w3.org/2000/svg"
           width="24"

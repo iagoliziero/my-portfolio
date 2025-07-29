@@ -5,7 +5,7 @@ import CardAboutMe from "./CardAboutMe";
 
 const AboutMe = (): JSX.Element => {
   return (
-    <div className="flex flex-col items-center gap-10">
+    <div id="2" className="flex flex-col items-center gap-10">
         <Subtitle>Sobre Mim</Subtitle>
       <div>
         <img

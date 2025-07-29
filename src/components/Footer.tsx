@@ -60,7 +60,7 @@ const Footer = () => {
               </svg>
             </LinkSocials>
 
-            <LinkSocials href="mailto:contatoiagoliziero@gmail.com?subject=Olá%20Iago">
+            <LinkSocials href="#6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
@@ -82,12 +82,12 @@ const Footer = () => {
         <div className="flex flex-col items-start mt-5 gap-4">
           <h3 className="h3-footer"> Navegação </h3>
           <ul className="flex flex-col text-white/70 text-start gap-2">
-            <NavLink href="#" label="Início" />
-            <NavLink href="#" label="Sobre" />
-            <NavLink href="#" label="Stack" />
-            <NavLink href="#" label="Projetos" />
-            <NavLink href="#" label="Currículo" />
-            <NavLink href="#" label="Contato" />
+            <NavLink href="#1" label="Início" />
+            <NavLink href="#2" label="Sobre" />
+            <NavLink href="#3" label="Stack" />
+            <NavLink href="#4" label="Projetos" />
+            <NavLink href="#5" label="Currículo" />
+            <NavLink href="#6" label="Contato" />
           </ul>
         </div>
         <div className="flex flex-col items-start mt-5 gap-4">

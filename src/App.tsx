@@ -14,8 +14,8 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-950 via-gray-950 to-slate-900 dark:from-black dark:via-gray-900 dark:to-black transition-all duration-300 overflow-x-hidden">
-      <div className="flex flex-col">
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-950 via-gray-950 to-slate-900 dark:from-black dark:via-gray-900 dark:to-black transition-all duration-300 overflow-x-hidden scroll-smooth">
+      <div id="1" className="flex flex-col">
         <Header />
 
         {/* Hero Section */}
@@ -37,7 +37,7 @@ function App() {
       </div>
       {/* arrow down */}
       <div className="relative top-60 lg:top-80 text-white/70 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <a href="#">
+        <a href="#2">
           <ChevronDown width={35} height={35} />
         </a>
       </div>
@@ -47,12 +47,16 @@ function App() {
         {/* About Me */}
         <AboutMe />
         {/* About Me */}
+        <span id="3"></span>
         <TechStack />
         <TechStudy />
         {/* Projects Component */}
+        <span id="4"></span>
         <Projects />
         {/* Projects Component */}
+        <span id="5"></span>
         <Resume />
+        <span id="6"></span>
         <GetContact />
         <Footer />
       </div>

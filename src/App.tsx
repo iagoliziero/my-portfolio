@@ -19,7 +19,7 @@ function App() {
         <Header />
 
         {/* Hero Section */}
-        <section className="relative flex flex-col items-center justify-center  top-60 xl:top-80">
+        <section className="relative flex flex-col items-center justify-center top-60  xl:top-64 3xl:top-80">
           <HeroContent />
           <div className="flex flex-col items-center justify-center">
             {" "}
@@ -29,21 +29,21 @@ function App() {
         {/* Hero Section */}
 
         {/* Socials section */}
-        <section className="flex items-center justify-center gap-6 md:gap-7 relative bottom-10 top-48 xl:top-64"> 
+        <section className="flex items-center justify-center gap-6 md:gap-7 relative bottom-10 top-48 xxl:top-52 3xl:top-80 "> 
 
         <SocialsSection />
         </section>
         {/* Socials section */}
       </div>
       {/* arrow down */}
-      <div className="relative top-60 xl:top-80 text-white/70 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="relative top-60 xl:top-64 xxl:80 text-white/70 left-1/2 transform -translate-x-1/2 animate-bounce">
         <a href="#2">
           <ChevronDown width={35} height={35} />
         </a>
       </div>
       {/* arrow down */}
 
-      <div className="max-h-0 relative top-[25rem] xl:top-[35rem] flex flex-col items-center ">
+      <div className="max-h-0 relative top-[25rem] xl:top-[28rem] 3xl:top-[35rem] flex flex-col items-center ">
         {/* About Me */}
         <AboutMe />
         {/* About Me */}

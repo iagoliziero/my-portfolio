@@ -2,7 +2,7 @@ import Paragraph from "./Paragraph";
 
 const CardAboutMe = (): JSX.Element => {
     return ( 
-        <div className="flex gap-5 flex-col mil:max-w-[25rem]  md:max-w-[30rem] bg-white/5 p-9 rounded-xl border-slate-300/30 border hover:bg-white/10 transition-all ease-in-out duration-300">
+        <div className="flex gap-5 flex-col mil:max-w-[25rem] md:max-w-[30rem] bg-white/5 p-9 rounded-xl border-slate-300/30 border hover:bg-white/10 transition-all ease-in-out duration-300">
           <Paragraph>
             Olá! Sou Iago Liziero, estudante de Análise e Desenvolvimento de
             Sistemas na FIAP e ETEC, apaixonado por criar soluções digitais que

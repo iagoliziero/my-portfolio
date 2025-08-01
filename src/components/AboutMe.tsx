@@ -2,10 +2,13 @@ import { Code, Coffee, Heart, MapPin } from "lucide-react";
 import Subtitle from "./Subtitle";
 import SectionCards from "./SectionCards";
 import CardAboutMe from "./CardAboutMe";
+import LeftOrRight from "../animations/LeftOrRight";
 
 const AboutMe = (): JSX.Element => {
   return (
-    <div id="2" className="flex flex-col items-center gap-10">
+    <> 
+       <div id="2" className="flex flex-col items-center gap-10">
+        <LeftOrRight position="right">
         <Subtitle>Sobre Mim</Subtitle>
       <div>
         <img
@@ -14,6 +17,7 @@ const AboutMe = (): JSX.Element => {
           alt="Imagem iago"
         />
       </div>
+      </LeftOrRight>
       <section className="flex flex-col justify-center items-center p-5 gap-5 mil:flex-row">
        <CardAboutMe />
         <section className="flex flex-col gap-5  md:max-w-[30rem]">
@@ -53,6 +57,8 @@ const AboutMe = (): JSX.Element => {
         </section>
       </section>
     </div>
+    </>
+   
   );
 };
 

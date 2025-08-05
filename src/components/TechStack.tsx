@@ -9,7 +9,7 @@ const TechStack = (): JSX.Element => {
         <Subtitle>Stack Tecnológica </Subtitle>
         <Paragraph>
           {" "}
-          Tecnologias que domino para criar soluções completas e inovadoras{" "}
+          Tecnologias que utilizo para criar soluções completas e inovadoras{" "}
         </Paragraph>
       </div>
       <div className="w-full flex md:max-w-[32rem] mil:max-w-[55rem]">

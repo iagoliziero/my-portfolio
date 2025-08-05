@@ -8,7 +8,7 @@ export const dataProjects: CardProjectsInterface[] = [
       description:
         "Plataforma para gerenciamento de treinos, com CRUD de exercícios, rastreamento de progresso e autenticação.",
       techChallenge: "Implementar a conexão com o backend utilizando autenticação JWT e gerenciamento de variáveis globais através do Context API.",
-      techStack: ["React.js", "Tailwind", "Context API", "Axios", "React Hook Form"],
+      techStack: ["React.js", "Tailwind", "Context API",  "Hook Form", "Axios"],
       navigationGithub: "https://github.com/iagoliziero/peak-form",
       navigationDemo: "https://peak-form-psi.vercel.app/",
       navigateDemoExist: true,
@@ -46,7 +46,7 @@ export const dataProjects: CardProjectsInterface[] = [
         description:
           "Gerenciador de biblioteca digital com CRUD de livros, visualização detalhada e integração entre front-end e back-end.",
         techChallenge: " Implementar a integração completa com o backend, incluindo chamadas à API, manipulação de dados e atualização dinâmica da interface.",
-        techStack: ["React.js", "TailwindCSS", "axios", "React Hook Form"],
+        techStack: ["React.js", "TailwindCSS", "Hook Form", "axios"],
         navigationGithub: "https://github.com/iagoliziero/digital-library-lizmann",
         navigationDemo: "https://digital-library-lizmann.vercel.app/",
         navigateDemoExist: true,

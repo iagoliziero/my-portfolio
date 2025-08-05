@@ -65,7 +65,7 @@ function App() {
         {/* Projects Component */}
         <span id="projetos"></span>
         <BottomToTop> 
-             <Projects />
+            <Projects />
         </BottomToTop>
        
         {/* Projects Component */}
@@ -75,7 +75,9 @@ function App() {
         </LeftOrRight>
         
         <span id="contato"></span>
-        <GetContact />
+        <LeftOrRight position="left"> 
+            <GetContact />
+        </LeftOrRight>
         <Footer />
       </div>
       </section>

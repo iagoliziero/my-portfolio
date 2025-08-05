@@ -12,7 +12,6 @@ import Resume from "./components/Resume";
 import GetContact from "./components/GetContact";
 import Footer from "./components/Footer";
 import BottomToTop from "./animations/BottomToTop";
-import LeftOrRight from "./animations/LeftOrRight";
 
 function App() {
   return (
@@ -51,9 +50,7 @@ function App() {
         </BottomToTop>
          <div className="flex flex-col items-center ">
         {/* About Me */}
-        <LeftOrRight position="right">
           <AboutMe />
-        </LeftOrRight>
         {/* About Me */}
         <span id="stack"></span>
         <TechStack />

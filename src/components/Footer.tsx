@@ -82,12 +82,12 @@ const Footer = () => {
         <div className="flex flex-col items-start mt-5 gap-4">
           <h3 className="h3-footer"> Navegação </h3>
           <ul className="flex flex-col text-white/70 text-start gap-2">
-            <NavLink href="#1" label="Início" />
-            <NavLink href="#2" label="Sobre" />
-            <NavLink href="#3" label="Stack" />
-            <NavLink href="#4" label="Projetos" />
-            <NavLink href="#5" label="Currículo" />
-            <NavLink href="#6" label="Contato" />
+            <NavLink href="#inicio" label="Início" />
+            <NavLink href="#sobre" label="Sobre" />
+            <NavLink href="#stack" label="Stack" />
+            <NavLink href="#projetos" label="Projetos" />
+            <NavLink href="#curriculo" label="Currículo" />
+            <NavLink href="#contato" label="Contato" />
           </ul>
         </div>
         <div className="flex flex-col items-start mt-5 gap-4">

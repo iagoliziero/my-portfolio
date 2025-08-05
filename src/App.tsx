@@ -12,10 +12,11 @@ import Resume from "./components/Resume";
 import GetContact from "./components/GetContact";
 import Footer from "./components/Footer";
 import BottomToTop from "./animations/BottomToTop";
+import LeftOrRight from "./animations/LeftOrRight";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 dark:from-slate-900 dark:via-gray-950 dark:to-slate-800 transition-all duration-300 overflow-x-hidden scroll-smooth">
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 dark:from-slate-900 dark:via-gray-950 dark:to-slate-800 transition-all duration-300 overflow-x-hidden">
       <div id="inicio" className="flex flex-col">
         <Header />
       </div>
@@ -50,17 +51,29 @@ function App() {
         </BottomToTop>
          <div className="flex flex-col items-center ">
         {/* About Me */}
+        <span id="sobre"></span>
+        <LeftOrRight position="right">
           <AboutMe />
+        </LeftOrRight>
         {/* About Me */}
         <span id="stack"></span>
-        <TechStack />
-        <TechStudy />
+        <LeftOrRight position="left"> 
+          <TechStack />
+          <TechStudy />
+        </LeftOrRight>
+        
         {/* Projects Component */}
         <span id="projetos"></span>
-        <Projects />
+        <BottomToTop> 
+             <Projects />
+        </BottomToTop>
+       
         {/* Projects Component */}
         <span id="curriculo"></span>
-        <Resume />
+        <LeftOrRight position="right"> 
+          <Resume />
+        </LeftOrRight>
+        
         <span id="contato"></span>
         <GetContact />
         <Footer />
@@ -71,3 +84,4 @@ function App() {
 }
 
 export default App;
+

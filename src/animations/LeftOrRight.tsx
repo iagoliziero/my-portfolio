@@ -19,7 +19,7 @@ export default function LeftOrRight({ children, position }: ILeftOrRight) {
 
     const fromVars = {
         opacity: 0,
-        x: position === "right" ? "200" : "-200"
+        x: position === "right" ? "500" : "-500"
     }
 
     const toVars = {
@@ -29,7 +29,7 @@ export default function LeftOrRight({ children, position }: ILeftOrRight) {
         ease: 'power2.inOut',
         scrollTrigger: {
           trigger: el,
-          start: "top 40%",
+          start: "top 60%",
           toggleActions: 'play none none reverse',
         },
       };

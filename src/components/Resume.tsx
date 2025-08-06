@@ -34,7 +34,7 @@ const Resume = (): JSX.Element => {
                   </H3>
                   <Paragraph>Acesse informações detalhadas sobre formação, experiências e certificações </Paragraph>
                 </div>
-                <a href="#" className="mt-5 flex items-center justify-center gap-2
+                <a href="/curriculo-pt.pdf" download className="mt-5 flex items-center justify-center gap-2
                     w-48 p-3 text-[16px]
                     bg-gradient-to-r from-purple-600 to-pink-600
                     rounded-xl text-white font-semibold shadow-lg

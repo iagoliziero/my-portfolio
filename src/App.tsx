@@ -13,10 +13,25 @@ import GetContact from "./components/GetContact";
 import Footer from "./components/Footer";
 import BottomToTop from "./animations/BottomToTop";
 import LeftOrRight from "./animations/LeftOrRight";
+import { useEffect, useState } from "react";
+import Loader from "./components/Loader";
 
 function App() {
+
+  const [loader, setLoader] = useState<boolean>(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+        setLoader(!loader)
+    }, 2000);
+
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 dark:from-slate-900 dark:via-gray-950 dark:to-slate-800 transition-all duration-300 overflow-x-hidden">
+   <> 
+       {loader ? (
+      <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 dark:from-slate-900 dark:via-gray-950 dark:to-slate-800 transition-all duration-300 overflow-x-hidden">
       <div id="inicio" className="flex flex-col">
         <Header />
       </div>
@@ -82,6 +97,14 @@ function App() {
       </div>
       </section>
     </div>
+    ) : (
+      <div className="flex flex-col h-screen bg-slate-950 transition-all duration-300 overflow-y-hidden items-center justify-center"> 
+          <div className="flex flex-col items-center justify-center gap-20">
+            <Loader />
+          </div>
+      </div>
+    )}
+   </>
   );
 }
 

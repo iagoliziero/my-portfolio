@@ -60,7 +60,7 @@ const Footer = () => {
               </svg>
             </LinkSocials>
 
-            <LinkSocials href="#6">
+            <LinkSocials href="#contato">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
@@ -95,7 +95,7 @@ const Footer = () => {
           <div className="flex flex-col gap-2 justify-center items-start text-start">
             <p className="p-footer"> contatoiagoliziero@gmail.com </p>
             <p className="p-footer"> +55 (11) 91962-0763 </p>
-            <p className="p-footer"> Taboão da Serra, SP </p>
+            <p className="p-footer"> São Paulo, SP </p>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ const CardAboutMe = (): JSX.Element => {
             resolver problemas reais e gerar impacto positivo.
           </Paragraph>
           <Paragraph>
-            Sou de Taboão da Serra, SP, e estou em busca de oportunidades para
+            Sou de São Paulo, SP, e estou em busca de oportunidades para
             trabalhar na área de desenvolvimento, contribuindo com projetos
             desafiadores e crescendo profissionalmente.
           </Paragraph>

@@ -29,7 +29,7 @@ export default function LeftOrRight({ children, position }: ILeftOrRight) {
         ease: 'power2.inOut',
         scrollTrigger: {
           trigger: el,
-          start: "top 60%",
+          start: "top 80%",
           toggleActions: 'play none none reverse',
         },
       };

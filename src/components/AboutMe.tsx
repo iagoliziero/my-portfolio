@@ -49,7 +49,7 @@ const AboutMe = (): JSX.Element => {
             className="text-green-400"
             title="Localização"
           >
-            Atualmente moro em Taboão da Serra, SP
+            Atualmente moro em São Paulo, SP
           </SectionCards>
         </section>
       </section>

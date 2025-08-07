@@ -18,6 +18,8 @@ import Loader from "./components/Loader";
 
 function App() {
 
+  {/* Timeout for Loader */}
+
   const [loader, setLoader] = useState<boolean>(false);
 
   useEffect(() => {
@@ -62,6 +64,7 @@ function App() {
             </a>
           </div>
           {/* arrow down */}
+          
          </div>
         </BottomToTop>
          <div className="flex flex-col items-center ">

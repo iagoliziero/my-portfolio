@@ -4,6 +4,8 @@ import Paragraph from "./Paragraph";
 import { useState } from "react";
 import H3 from "./H3";
 
+{/* Mock Data */}
+
 const techStudyObj: TechStudyInterface[] = [
   { id: 1, tech: "Java" },
   { id: 2, tech: "AWS" },

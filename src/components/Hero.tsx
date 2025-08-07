@@ -1,3 +1,5 @@
+{/* Brightness Effect */}
+
 const Hero = (): JSX.Element => {
     return (
         <div className="absolute inset-0">

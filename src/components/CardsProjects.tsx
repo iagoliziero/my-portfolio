@@ -23,6 +23,8 @@ const CardsProjects = ({selectedArea}: CardsProjectsProps): JSX.Element => {
     4: "Backend"
   }
 
+  {/* Projects Filter */}
+
   const filteredProjects = selectedArea && selectedArea !== 1 ? projects.filter(project => project.area === areaMap[selectedArea]) : projects
 
   return (

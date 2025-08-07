@@ -19,7 +19,6 @@ const HeroContent = (): JSX.Element => {
       </div>
       {/* Button navigation */}
       <HeroButton />
-      {/* Background Hero */}
     </div>
   );
 };

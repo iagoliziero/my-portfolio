@@ -2,6 +2,8 @@ import {useLayoutEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
+{/* GSAP Animation Display - Bottom -> Top */}
+
 interface IBottomToTop {
     children: React.ReactNode,
 }

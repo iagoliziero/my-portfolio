@@ -1,5 +1,7 @@
 import LinkSocials from "./LinkSocials";
 
+{/* SVG Socials */}
+
 const SocialsSection = (): JSX.Element => {
   return (
     <>

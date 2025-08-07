@@ -2,6 +2,9 @@ import {useLayoutEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
+{/* GSAP Animation Display - Left or Right */}
+
+{/* Animator Selector */}
 interface ILeftOrRight {
     children: React.ReactNode,
     position: "right" | "left"

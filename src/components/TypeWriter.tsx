@@ -1,5 +1,7 @@
 import TypeWriter from 'typewriter-effect'
 
+{/* TypeWriter Effect Animation Display*/}
+
 const TypeWriterEffect = (): JSX.Element => {
     return ( 
         <TypeWriter options={{

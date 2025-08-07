@@ -18,7 +18,7 @@ const Contact = (): JSX.Element => {
             icon={<Phone size={24} />}
           />
           <InfosContact
-            contact="Taboão da Serra, SP "
+            contact="São Paulo, SP "
             plataformContact="Localização"
             icon={<MapPin size={24} />}
           />

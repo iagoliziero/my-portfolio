@@ -13,14 +13,19 @@ const CardContact = (): JSX.Element => {
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+
+    const serviceID: string = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateID: string = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey: string = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
     e.preventDefault();
     if (!form.current) return;
     emailjs
       .sendForm(
-        "service_k3f0d7f",
-        "template_2fck3sj",
+        serviceID,
+        templateID,
         form.current!,
-        "z9PH8iou7QFgNLKwz"
+        publicKey
       )
       .then(
         () => {

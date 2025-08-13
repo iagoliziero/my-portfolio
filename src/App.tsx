@@ -21,7 +21,7 @@ function App() {
   {/* Timeout for Loader */}
 
   const [loader, setLoader] = useState<boolean>(false);
-
+  // timer
   useEffect(() => {
     const timer = setTimeout(() => {
         setLoader(!loader)
